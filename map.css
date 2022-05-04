@@ -1,0 +1,97 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+}
+
+.fon{
+	position: absolute;
+	margin: auto;
+	z-index: -1;
+	width: 100%;
+	height: 94.5%;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.top_menu{
+	background: rgb(200, 200, 250);
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	text-align: center;
+}
+
+.bott_menu{
+	background: rgb(200, 200, 250);
+	bottom: 0;
+	left: 0;
+	height: 110px;
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	text-align: left;
+	font-size: 15px;
+}
+
+a{
+	color: #00f;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.london, .paris, .rome, .berlin, .kyiv{
+	position: absolute;
+	background-color: #fa0;
+	border-radius: 50%;
+	width: 0.9%;
+	height: 1.7%;
+}
+.london{top:50.7%; left: 22.5%}
+.paris{top: 57.8%; left: 25%}
+.rome{top:77.2%; left: 38.6%;}
+.berlin{top: 48.6%; left: 38.8%;}
+.kyiv{top: 50.5%; left: 59.8%}
+
+div[class*="link"]{
+	position: absolute;
+	display: none;
+	background-color: rgba(46, 46, 46);
+	border-radius: 10px;
+	width: 1100%;
+	height: 450%;
+}
+
+.london:hover .button1{display: block;}
+.paris:hover .button2{display: block;}
+.rome:hover .button3{display: block;}
+.berlin:hover .button4{display: block;}
+.kyiv:hover .button5{display: block;}
+
+button{
+	display: none;
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	background-color: rgb(200, 200, 250);
+	border: 1px solid rgb(200, 200, 250);
+	border-radius: 7px;
+	width: 1100%;
+	height: 450%; 
+	top: -350%;
+	left: 100%;
+}
+button:active{background-color: rgb(150, 150, 200); border: 1px solid rgb(150, 150, 200);}

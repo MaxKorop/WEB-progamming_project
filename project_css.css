@@ -19,8 +19,6 @@ body{
 	animation-direction: alternate;
 }
 
-.aboutsite{background-color: rgba(216, 216, 216);}
-
 .choose_from_lst{
 	position: absolute;
 	margin: auto;
@@ -31,12 +29,8 @@ body{
 	font-size: 17px;
 	background-color: rgba(150, 150, 210, 0.6);
 	border-radius: 10px;
-	right: 0;
+	right: 1.5%;
 }
-
-.choose_from_lst a{color: #0000ff;}
-
-.chooseonmap a{color: #0000ff;}
 
 .chooseonmap{
 	position: absolute;
@@ -48,11 +42,11 @@ body{
 	font-size: 17px;
 	background-color: rgba(150, 150, 210, 0.6);
 	border-radius: 10px;
-	left: 0;
+	left: 1.5%;
 }
 
 .top_menu{
-	background: rgba(200, 200, 250, 0.9);
+	background: rgb(200, 200, 250);
 	top: 0;
 	left: 0;
 	height: 50px;
@@ -64,8 +58,22 @@ body{
 	text-align: center;
 }
 
+.bott_menu{
+	background: rgb(200, 200, 250);
+	bottom: 0;
+	left: 0;
+	height: 110px;
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	text-align: left;
+	font-size: 15px;
+}
+
 a{
-	color: #0af;
+	color: #00f;
 	font-size: 20px;
 	text-decoration: none;
 	margin-top: 3px;
@@ -76,11 +84,13 @@ a{
 .aboutsite{
 	top: 55px;
 	width: 75%;
+	height: 56%;
 	position: absolute;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
 	font-size: 25px;
 	border-radius: 10px;
+	background-color: rgba(216, 216, 216);
 }
 
 .list{
@@ -94,16 +104,16 @@ a{
 	position: absolute;
 	margin: auto;
 	right: 22%;
-	transform: translate(-78%, -59%);
+	transform: translate(-78%, -50%);
 }
 
 .choose_from_lst:hover .list{opacity: 1;}
 
 @keyframes slideshow{
-	0%{ background-image: url(fones/reichstag.jfif); }
-	20%{ background-image: url(fones/eifel_tower.jfif); }
-	40%{ background-image: url(fones/big_ben.jfif); }
-	60%{ background-image: url(fones/colosseum.jfif); }
+	0%{ background-image: url(fones/reichstag.jpg); }
+	20%{ background-image: url(fones/eifel_tower.jpg); }
+	40%{ background-image: url(fones/big_ben.jpg); }
+	60%{ background-image: url(fones/colosseum.jpg); }
 	80%{ background-image: url(fones/motherland.jpg); }
-	100%{ background-image: url(fones/stonehendge.jfif); }
+	100%{ background-image: url(fones/stonehendge.jpg); }
 }
