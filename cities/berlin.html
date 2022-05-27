@@ -4,11 +4,12 @@
 	<title>Berlin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="city.css">
+	<link rel="stylesheet" type="text/css" href="css/berlin.css">
 	<link rel="shortcut icon" type="image/xicon" href="https://w7.pngwing.com/pngs/414/939/png-transparent-basic-destination-location-maps-navigation-pin-flat-mate-basic-icon-thumbnail.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 	<div class="top_menu">
@@ -25,7 +26,17 @@
 		<br></p>
 		<h3 style="margin-left: 37%;">Цікаві місця</h3>
 		<p>Місця в Берлініі, які варто відвідати: Бранденбурзькі ворота, Рейхстаг, Берлінська стіна, Галерея Іст-Сайд, Берлінський собор.</p>
-		<button class="button">Замовити квитки</button>
+		<button class="button"><a href="#example" class="openModal">Замовити квитки</a></button>
+	</div>
+	<div id="wrapper">
+	<aside id="example" class="modal">
+		<div>
+			<h2>Помилка!!!</h2>
+			<p class="modal_text">Нажаль зараз не можливо замовити квитки</p>
+			<a href="" class="button2">Ок</a>
+			<a href="#close" title="Закрити" class="close">Закрити</a>
+		</div>
+	</aside>
 	</div>
 </body>
 </html>
